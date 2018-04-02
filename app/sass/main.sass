@@ -14,6 +14,10 @@ html, body
 .h1, .h2, .h3
 	text-transform: uppercase
 	line-height: 1.4
+a
+	color: #fff
+a:hover
+	color: #333
 .button
 	display: inline-block
 	border: none
@@ -96,7 +100,10 @@ section, header
 	bacground-position: center
 section
 	bacground-color: #fff
- 
+input
+	margin: 10px
+form
+	text-align: center
 .img-responsive
 	display: block
 	max-width: 100%
@@ -119,7 +126,11 @@ section
 .header-composition
 	position: relative
 	p
-		margin-top: 40
+		margin-top: 40px
+.what-contemp
+	margin: 50px auto
+	.button
+		margin-top: 50px
 .welcome
 	p
 		font-size: 14px
@@ -178,8 +189,7 @@ section
 	
 	
 #window
-	width: 400px
-	height: 400px
+	width: 420px
 	margin: 50px auto
 	display: none
 	background: #fff
@@ -196,6 +206,47 @@ section
 	margin-left: 364px
 	margin-top: 4px
 	cursor: pointer
+.header-social
+	ul
+		text-decoration: none
+		list-style: none
+		padding: 10px
 
+.header-social
+	position: absolute
+	display: flex
+	right: 0
+	top: 0
+	height: 100%
+	border-left: rgba(#fff, .1) 1px solid
+	padding: 0 12px
+.soc
+	margin: auto
+	ul, li
+		margin: 0
+		padding: 0
+	a
+		display: block
+		padding: 10px 0
+.header-contacts
+	position: absolute
+	bottom: 0
+	left: 0
+	border-top: rgba(#fff, .15) 1px solid
+	padding: 12px 0
+	width: 100%
+	bacground-color: rgba(#151515, .15)
+.s-king
+	padding: 5% 0
+	
 
-@import "media" // Always at the end
+.s-king
+	p
+		margin: 30px 0
+.section-overley
+footer
+	padding: 40px
+	background-color: #999999
+.footer-menu
+
+@import "media" 

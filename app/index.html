@@ -41,32 +41,42 @@
                                         <h1 class="h1">Школу современного танца</h1>
                                         <strong>В МОСКВЕ</strong>
                                     </div>
-                                    <p>Чувства в каждом движении – это Contemporary. Танец, позволяющий исполнителю полностью само выразиться. Танцевать его может один человек или двое. Танец мужчины и женщины особенно примечательный, нежные прикосновения, страстные взгляды, любовное слияние. Можно увидеть наяву, как две души познают друг друга. Хотите испытать все это, тогда приходите в студию танцев</p>
-                                    <a href="#" class="button">О школе</a>
+                                    <p style="text-align: justify;">Чувства в каждом движении – это Contemporary. Танец, позволяющий исполнителю полностью само выразиться. Танцевать его может один человек или двое. Танец мужчины и женщины особенно примечательный, нежные прикосновения, страстные взгляды, любовное слияние. Можно увидеть наяву, как две души познают друг друга. Хотите испытать все это, тогда приходите в студию танцев</p>
+                                    <a href="#aboutus" class="button">О школе</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
-       
-        <div class="container">
-            <div class="row">
-                <h3>Что такое Contemporary</h3></div>
-            <div class="row">
-                <div class="col-sm-8">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZElyACfBB5Q?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-                <div class="col-sm-4">
-                    <p>Это интересная комбинация нескольких стилей. Западные танцы – (модерн, классика, джазовые движения). Восточные стили (Йога, Тай Цзи Цюань). Вы не знаете такие танцы и движения. Вас научат, постепенное познание себя приведет к тому, что вы сможете произвести впечатление на зрителя, когда будут проходить показательные выступления в студии.
-                    </p>
+            <div class="header-social">
+                <nav class="soc">
+                    <ul>
+                        <li><a href=""><img src="img/logo/t.png" width="50" alt=""></a></li>
+                        <li><a href=""><img src="img/logo/tw.png" width="50" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-contacts">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">г.Москва, ул. Бабушкина, 22к4</div>
+                        <div class="col-md-4">+7(992) 027-99-93</div>
+                        <div class="col-md-4">Время работы: ежедневно 11:00 - 20:00</div>
+                    </div>
                 </div>
             </div>
+        </header>
+        <div class="container what-contemp">
+            
             <div class="row">
-                <div class="col-sm">Преподаватели</div>
-                <div class="col-sm">Расписание</div>
-                <div class="col-sm">
+                <div class="col-sm-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZElyACfBB5Q?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-6" style="text-align: center;" >
+                	<h3 class="h3">Что такое Contemporary</h3> 
+                    <p style="text-align: justify;">Это интересная комбинация нескольких стилей. Западные танцы – (модерн, классика, джазовые движения). Восточные стили (Йога, Тай Цзи Цюань). Вы не знаете такие танцы и движения. Вас научат, постепенное познание себя приведет к тому, что вы сможете произвести впечатление на зрителя, когда будут проходить показательные выступления в студии.
+                    </p>
                     <script type="text/javascript">
                     function show(state) {
                         document.getElementById('window').style.display = state;
@@ -76,29 +86,54 @@
                     <div onclick="show('none')" id="wrap"></div>
                     <div id="window">
                         <img class="close" onclick="show('none')" src="img/logo/close.png">
-                        <form action="">Здесь будет форма</form>
+                        <form id="my_form_contact" action="send.php" method="POST">
+                            Имя*
+                            <input name="name" placeholder="" required>
+                            <br> E-mail*
+                            <input name="email" placeholder="" required>
+                            <br> Телефон
+                            <input name="mytel" placeholder="">
+                            <br>
+                            <button type="submit" class="button">Оставить заявку</button>
+                        </form>
                     </div>
-                    <button class="button" onclick="show('block')">Оставить заявку</button>
+                <button class="button" onclick="show('block')">Оставить заявку</button>
+                </div>
+                
+            </div>
+        </div>
+        <div id="aboutus">
+        <div class="s-king inverse section-overley" style="background-image: url(img/head-bcg.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        
+                            <h2 class="h2">Школа танцев</h2><p style="text-align: justify;"><strong>S&Miller</strong> — это школа от танцоров для танцоров и для тех, кто хочет научиться танцевать! В течении двух лет, каждый день мы создавали это место для Вас! Мы работаем 24 часа в сутки, 7 дней в неделю, 365 дней в году! Через наши стены проходит 5000 танцоров ежегодно! 35 топовых преподавателей по самым актуальным стилям на сегодняшний день!</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="slider-box">
+                            <div class="slider">
+                                <img src="img/slide01.jpg" alt="">
+                                <img src="img/slide02.jpg" alt="">
+                                <img src="img/slide03.jpg" alt="">
+                                <img src="img/slide04.jpg" alt="">
+                                <img src="img/slide02.jpg" alt="">
+                            </div>
+                            <div class="prev"></div>
+                            <div class="next"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-         <div class="slider-box">
-            <div class="slider">
-                <img src="img/slide01.jpg" alt="">
-                <img src="img/slide02.jpg" alt="">
-                <img src="img/slide03.jpg" alt="">
-                <img src="img/slide04.jpg" alt="">
-                <img src="img/slide02.jpg" alt="">
-            </div>
-            <div class="prev"></div>
-            <div class="next"></div>
         </div>
         <footer>
-            <div class="container">
+            <div class="container footer-menu">
                 <div class="row">
-                    <div class="col-6 col-md-4">О студии</div>
-                    <div class="col-6 col-md-4">Контакты</div>
-                    <div class="col-6 col-md-4">Партнеры</div>
+                    <div class="col-6 col-md-3"><a href="#">О студии</a></div>
+                    <div class="col-6 col-md-3"><a href="#">Контакты</a></div>
+                    <div class="col-6 col-md-3"><a href="#">Партнеры</a></div>
+                    <div class="col-6 col-md-3"><a href="#">Портфолио</a></div>
                 </div>
             </div>
         </footer>
