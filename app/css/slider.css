@@ -1,0 +1,31 @@
+.slider-box{
+  position:relative;
+  width:800px;
+  max-height:400px;
+  overflow:hidden;
+}
+.slider{
+  position:relative;
+  width:10000px;
+  height:210px;
+}
+.slider img{
+  float:left;
+  
+}
+.slider-box .prev, .slider-box .next{
+  position:absolute;
+  top:100px;
+  display:block;
+  width:29px;
+  height:29px;
+  cursor:pointer;
+}
+.slider-box .prev{
+  left:10px;
+  background:url(../img/logo/slider_controls.png) no-repeat 0 0;
+}
+.slider-box .next{
+  right:10px;
+  background:url(../img/logo/slider_controls.png) no-repeat -29px 0;
+}
